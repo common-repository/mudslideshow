@@ -1,0 +1,19 @@
+/* Controls-> Bottom right */
+
+div.simpleslider {
+	border: solid 1px #bbbbbb;
+	padding: 5px;
+	display: inline-block;
+	position: relative;
+}
+
+div.simpleslider div.item { float: left; vertical-align: middle; text-align: center; }
+
+div.simpleslider .texto { padding: 5px 90px 5px 10px; font-size: 0.8em; text-align: left; }
+
+div.simpleslider .player { position: absolute; background: rgba(0,0,0,0.4); bottom: 10px; right: 0px; }
+div.simpleslider .player > div { display: inline-block; vertical-align: top; }
+div.simpleslider .player .button { width: 30px; height: 26px; background: url(../img/simpleslide/leftarrow.png) center center no-repeat; cursor: pointer; }
+div.simpleslider .player .button.next { background-image: url(../img/simpleslide/rightarrow.png); }
+div.simpleslider .player .pagination span.item { display: none; color: white; line-height: 28px; }
+div.simpleslider .player .pagination span.item.selected { display: inline-block; }
